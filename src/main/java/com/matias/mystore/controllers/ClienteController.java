@@ -39,7 +39,7 @@ public class ClienteController {
                 clienteService.obtenerClientePorNombre(nombre).forEach(clientes::add);
             }
             if (clientes.isEmpty() || clientes.size() == 0) {
-                response.setMessage("No hay clientes para listar.");
+                response.setMessage("<Mi cambio de archiuvo.");
                 response.setError(true);
                 response.setData(clientes);
                 return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
