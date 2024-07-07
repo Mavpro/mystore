@@ -50,7 +50,7 @@ public class ClienteController {
                 return new ResponseEntity<>(response, HttpStatus.OK);
             }
         } catch (Exception e) {
-            response.setMessage("Problemas para realizar solicitud.");
+            response.setMessage("Este cambio es de la nueva rama.");
             response.setError(true);
             response.setData(null);
             return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
