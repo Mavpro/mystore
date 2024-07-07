@@ -1,0 +1,66 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Archivos IDE y configuraciones
+.idea/*
+workspace.xml
+.project
+target/
+pom.xml
+build.gradle
+
+# Archivos generados
+.class
+*.log
+*.tmp
+*.cache
+db/*.sql
+output/*
+
+# Archivos de entorno
+application.properties
+bootstrap.properties
+*.env
+
+# Archivos de prueba
+src/test/resources/application.properties
+src/test/resources/bootstrap.properties
+
+# Archivos de dependencias
+vendor/
+lib/
+
+# Archivos específicos de Spring Boot
+spring-boot-*.jar
+spring-boot-*.log
